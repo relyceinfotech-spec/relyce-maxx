@@ -1,0 +1,43 @@
+{
+  "origin_artifact": "live-chat-20261011T103826.json",
+  "footer_source": {
+    "id": "S1",
+    "url": "https://www.youtube.com/watch?v=adQVcs-I4wU",
+    "title": "Week 1 | Python | T3-2026",
+    "text": "About\nPress\nCopyright\nContact us\nCreator\nAdvertise\nDevelopers\nTerms\nPrivacy\nPolicy & Safety\nHow YouTube works\nTest new features\n\u00a9 2026 Google LLC",
+    "published_at": null,
+    "canonical_url": "https://www.youtube.com/watch?v=adQVcs-I4wU"
+  },
+  "model_usage": [
+    {
+      "model": "openai/gpt-6-luna",
+      "prompt_tokens": 1399,
+      "completion_tokens": 801,
+      "reported_cost": "0.0005753",
+      "reserved_cost": "0.43555",
+      "status": "completed"
+    },
+    {
+      "model": "openai/gpt-6-luna",
+      "prompt_tokens": 2127,
+      "completion_tokens": 551,
+      "reported_cost": "0.0005413",
+      "reserved_cost": "0.6063500000000001",
+      "status": "completed"
+    }
+  ],
+  "budget": {
+    "pages": 4,
+    "searches": 1,
+    "model_calls": 2,
+    "cost_reserved": 1.0419,
+    "tokens_reserved": 20838
+  },
+  "issue": {
+    "category": "missing_citation",
+    "sentence_index": 0,
+    "claim_index": 1,
+    "passage_id": "S2-P1"
+  },
+  "original_draft_retained": false
+}

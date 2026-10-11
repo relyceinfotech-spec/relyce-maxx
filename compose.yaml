@@ -1,0 +1,20 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    ports: ["8000:8000"]
+    env_file:
+      - path: backend/.env
+        required: false
+    restart: unless-stopped
+  worker:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    command: [".venv/bin/maxxx-worker"]
+    env_file:
+      - path: backend/.env
+        required: true
+    profiles: ["workers"]
+    restart: on-failure

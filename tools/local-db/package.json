@@ -1,0 +1,11 @@
+{
+  "name": "maxxx-local-database",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node test.mjs" },
+  "dependencies": {
+    "@electric-sql/pglite": "0.5.8",
+    "@electric-sql/pglite-socket": "0.2.11",
+    "@electric-sql/pglite-pgvector": "0.0.9"
+  }
+}

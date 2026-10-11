@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+**/.venv/
+**/__pycache__/
+**/.pytest_cache/
+**/.ruff_cache/
+.uv-cache/
+*.egg-info/
+coverage.xml
+.coverage
+**/.local-state/
+**/htmlcov/
+*.log
+**/node_modules/
+supabase/.temp/

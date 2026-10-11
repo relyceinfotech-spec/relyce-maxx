@@ -1,0 +1,807 @@
+{
+  "collected_at": "2026-10-11T08:52:37.106957+00:00",
+  "label_provenance": "Assistant-reviewed RSS headlines; dominant subject labels; not independently adjudicated and not factual verification",
+  "rubric": "Choose the dominant technical subject. Use mixed when independent domains are equally central. Incidental AI tooling does not change a cybersecurity report into AI news. Feed context may disambiguate subject names. Headlines never authorize publication.",
+  "rows": [
+    {
+      "id": "RSS001",
+      "prompt": "Impactful scheduling for GPU clusters",
+      "expected": "programming",
+      "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
+      "published_at": "Fri, 09 Oct 2026 15:20:29 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS002",
+      "prompt": "The model that didn't exist, so you made it yourself",
+      "expected": "ai",
+      "url": "https://huggingface.co/blog/building-with-ml-intern",
+      "published_at": "Thu, 08 Oct 2026 00:00:00 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS003",
+      "prompt": "Multimodal open d1 decision models for the edge",
+      "expected": "ai",
+      "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+      "published_at": "Wed, 07 Oct 2026 16:54:33 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS004",
+      "prompt": "Introducing Falcon ASR",
+      "expected": "ai",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+      "published_at": "Wed, 07 Oct 2026 13:21:03 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS005",
+      "prompt": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+      "expected": "ai",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+      "published_at": "Wed, 07 Oct 2026 12:45:31 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS006",
+      "prompt": "The Agent Said It Was Done. The Database Disagreed.",
+      "expected": "mixed",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "published_at": "Sat, 03 Oct 2026 22:56:48 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS007",
+      "prompt": "AutoSynthData: Generating Training Data for Enterprise Agents",
+      "expected": "ai",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "published_at": "Fri, 02 Oct 2026 04:01:31 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS008",
+      "prompt": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+      "expected": "ai",
+      "url": "https://huggingface.co/blog/open-tts-leaderboard",
+      "published_at": "Wed, 30 Sep 2026 00:00:00 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS009",
+      "prompt": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+      "expected": "ai",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+      "published_at": "Tue, 29 Sep 2026 13:07:00 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS010",
+      "prompt": "Holo4: powering generalist computer-use agents",
+      "expected": "ai",
+      "url": "https://huggingface.co/blog/Hcompany/holo4",
+      "published_at": "Mon, 28 Sep 2026 09:44:05 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS011",
+      "prompt": "Welcome RL Environments to the hub",
+      "expected": "ai",
+      "url": "https://huggingface.co/blog/rl-environments",
+      "published_at": "Mon, 28 Sep 2026 00:00:00 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS012",
+      "prompt": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+      "expected": "ai",
+      "url": "https://huggingface.co/blog/evaleval-aisi",
+      "published_at": "Tue, 22 Sep 2026 00:00:00 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS013",
+      "prompt": "Transformers now runs llama.cpp quants",
+      "expected": "ai",
+      "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "published_at": "Tue, 22 Sep 2026 00:00:00 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS014",
+      "prompt": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+      "expected": "ai",
+      "url": "https://huggingface.co/blog/omlx",
+      "published_at": "Tue, 22 Sep 2026 00:00:00 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS015",
+      "prompt": "tokenizers v1: encode, decode and scaling, measured",
+      "expected": "ai",
+      "url": "https://huggingface.co/blog/tokenizers-v1",
+      "published_at": "Mon, 21 Sep 2026 00:00:00 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS016",
+      "prompt": "Your Agent Aced the Task. Will It Do It Again?",
+      "expected": "ai",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+      "published_at": "Tue, 15 Sep 2026 16:00:44 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS017",
+      "prompt": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+      "expected": "ai",
+      "url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+      "published_at": "Thu, 10 Sep 2026 00:00:00 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS018",
+      "prompt": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+      "expected": "ai",
+      "url": "https://huggingface.co/blog/gradio-workflow-1111",
+      "published_at": "Thu, 10 Sep 2026 00:00:00 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS019",
+      "prompt": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+      "expected": "ai",
+      "url": "https://huggingface.co/blog/Hcompany/neomme",
+      "published_at": "Thu, 03 Sep 2026 13:13:48 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS020",
+      "prompt": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+      "expected": "ai",
+      "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+      "published_at": "Thu, 03 Sep 2026 00:00:00 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS021",
+      "prompt": "Give Your Coding Agents a Memory You Own",
+      "expected": "ai",
+      "url": "https://huggingface.co/blog/funes",
+      "published_at": "Thu, 03 Sep 2026 00:00:00 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS022",
+      "prompt": "Training a coding model to paint watercolours with TRL and OpenEnv",
+      "expected": "ai",
+      "url": "https://huggingface.co/blog/train-to-paint-with-code",
+      "published_at": "Thu, 03 Sep 2026 00:00:00 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS023",
+      "prompt": "BenchMIRT: What are LLM benchmarks actually measuring?",
+      "expected": "ai",
+      "url": "https://huggingface.co/blog/allenai/benchmirt",
+      "published_at": "Tue, 01 Sep 2026 21:39:07 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS024",
+      "prompt": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+      "expected": "ai",
+      "url": "https://huggingface.co/blog/webgpu-kernels",
+      "published_at": "Tue, 01 Sep 2026 00:00:00 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS025",
+      "prompt": "The Open ASR Leaderboard Adds Its First Global South Language",
+      "expected": "ai",
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+      "published_at": "Fri, 28 Aug 2026 00:00:00 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS026",
+      "prompt": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+      "expected": "ai",
+      "url": "https://huggingface.co/blog/train-multi-vector-encoder",
+      "published_at": "Wed, 26 Aug 2026 00:00:00 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS027",
+      "prompt": "Granite 4.2 LLMs: How They're Built",
+      "expected": "ai",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+      "published_at": "Tue, 25 Aug 2026 15:14:14 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS028",
+      "prompt": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+      "expected": "ai",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "published_at": "Tue, 25 Aug 2026 11:39:24 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS029",
+      "prompt": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+      "expected": "ai",
+      "url": "https://huggingface.co/blog/gradio-workflow-guide",
+      "published_at": "Tue, 25 Aug 2026 00:00:00 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS030",
+      "prompt": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
+      "expected": "ai",
+      "url": "https://huggingface.co/blog/pwc-search",
+      "published_at": "Fri, 21 Aug 2026 00:00:00 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS031",
+      "prompt": "Measuring benchmark optimization in speech recognition",
+      "expected": "ai",
+      "url": "https://huggingface.co/blog/asr-benchmark-optimization",
+      "published_at": "Fri, 21 Aug 2026 00:00:00 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS032",
+      "prompt": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+      "expected": "ai",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+      "published_at": "Thu, 20 Aug 2026 16:52:57 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS033",
+      "prompt": "How Much Memory Does Your Agent Actually Need?",
+      "expected": "ai",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+      "published_at": "Tue, 18 Aug 2026 18:09:38 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS034",
+      "prompt": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+      "expected": "ai",
+      "url": "https://huggingface.co/blog/multi-vector-encoder",
+      "published_at": "Tue, 18 Aug 2026 00:00:00 GMT",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "RSS035",
+      "prompt": "Python 3.15.0 (final) is here!",
+      "expected": "programming",
+      "url": "https://blog.python.org/2026/10/python-3150-final-is-here/",
+      "published_at": "Fri, 09 Oct 2026 00:00:00 GMT",
+      "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "RSS036",
+      "prompt": "Python 3.15.0 candidate 3 is here!",
+      "expected": "programming",
+      "url": "https://blog.python.org/2026/10/python-3150-rc3/",
+      "published_at": "Fri, 02 Oct 2026 00:00:00 GMT",
+      "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "RSS037",
+      "prompt": "Python 3.10.22, 3.11.17, 3.12.15, 3.13.16 and 3.14.8 are now available!",
+      "expected": "programming",
+      "url": "https://blog.python.org/2026/10/python-31022-31117/",
+      "published_at": "Thu, 01 Oct 2026 00:00:00 GMT",
+      "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "RSS038",
+      "prompt": "Python Language Summit 2026",
+      "expected": "programming",
+      "url": "https://blog.python.org/2026/09/language-summit-2026/",
+      "published_at": "Wed, 30 Sep 2026 12:00:11 GMT",
+      "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "RSS039",
+      "prompt": "Lightning Talks (Python Language Summit 2026)",
+      "expected": "programming",
+      "url": "https://blog.python.org/2026/09/language-summit-2026-lightning-talks/",
+      "published_at": "Wed, 30 Sep 2026 12:00:10 GMT",
+      "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "RSS040",
+      "prompt": "PEP 827: Type Manipulation (Python Language Summit 2026)",
+      "expected": "programming",
+      "url": "https://blog.python.org/2026/09/language-summit-2026-pep-827-type-manipulation/",
+      "published_at": "Wed, 30 Sep 2026 12:00:09 GMT",
+      "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "RSS041",
+      "prompt": "Free-Threaded Python Post-Era (Python Language Summit 2026)",
+      "expected": "programming",
+      "url": "https://blog.python.org/2026/09/language-summit-2026-free-threading-post-era/",
+      "published_at": "Wed, 30 Sep 2026 12:00:08 GMT",
+      "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "RSS042",
+      "prompt": "Developer-in-Residence Update & Future (Python Language Summit 2026)",
+      "expected": "programming",
+      "url": "https://blog.python.org/2026/09/language-summit-2026-developer-in-residence-update-and-future/",
+      "published_at": "Wed, 30 Sep 2026 12:00:07 GMT",
+      "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "RSS043",
+      "prompt": "Spicycrab (Python Language Summit 2026)",
+      "expected": "programming",
+      "url": "https://blog.python.org/2026/09/language-summit-2026-spicycrab/",
+      "published_at": "Wed, 30 Sep 2026 12:00:06 GMT",
+      "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "RSS044",
+      "prompt": "Rust for CPython (Python Language Summit 2026)",
+      "expected": "programming",
+      "url": "https://blog.python.org/2026/09/language-summit-2026-rust-for-cpython/",
+      "published_at": "Wed, 30 Sep 2026 12:00:05 GMT",
+      "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "RSS045",
+      "prompt": "Memory Snapshots for CPython (Python Language Summit 2026)",
+      "expected": "programming",
+      "url": "https://blog.python.org/2026/09/language-summit-2026-memory-snapshots/",
+      "published_at": "Wed, 30 Sep 2026 12:00:04 GMT",
+      "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "RSS046",
+      "prompt": "Memory Buffer Protocol (Python Language Summit 2026)",
+      "expected": "programming",
+      "url": "https://blog.python.org/2026/09/language-summit-2026-memory-buffer-protocol/",
+      "published_at": "Wed, 30 Sep 2026 12:00:03 GMT",
+      "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "RSS047",
+      "prompt": "Garbage Collection: Generational? Incremental? Both! (Python Language Summit 2026)",
+      "expected": "programming",
+      "url": "https://blog.python.org/2026/09/language-summit-2026-garbage-collection-generational-incremental-both/",
+      "published_at": "Wed, 30 Sep 2026 12:00:02 GMT",
+      "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "RSS048",
+      "prompt": "macOS and Python (Python Language Summit 2026)",
+      "expected": "programming",
+      "url": "https://blog.python.org/2026/09/language-summit-2026-macos-python/",
+      "published_at": "Wed, 30 Sep 2026 12:00:01 GMT",
+      "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "RSS049",
+      "prompt": "One namespace to namespace them all (Python Language Summit 2026)",
+      "expected": "programming",
+      "url": "https://blog.python.org/2026/09/language-summit-2026-namespaces/",
+      "published_at": "Wed, 30 Sep 2026 12:00:00 GMT",
+      "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "RSS050",
+      "prompt": "The Python documentation is now available in German",
+      "expected": "programming",
+      "url": "https://blog.python.org/2026/09/python-docs-in-german/",
+      "published_at": "Sat, 26 Sep 2026 00:00:00 GMT",
+      "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "RSS051",
+      "prompt": "The Python documentation is now available in Persian",
+      "expected": "programming",
+      "url": "https://blog.python.org/2026/09/the-python-documentation-is-now-available-in-persian/",
+      "published_at": "Wed, 23 Sep 2026 00:00:00 GMT",
+      "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "RSS052",
+      "prompt": "Python 3.15.0 candidate 2 is here!",
+      "expected": "programming",
+      "url": "https://blog.python.org/2026/09/python-3150-rc2/",
+      "published_at": "Tue, 01 Sep 2026 00:00:00 GMT",
+      "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "RSS053",
+      "prompt": "RISC-V is now officially supported by CPython!",
+      "expected": "programming",
+      "url": "https://blog.python.org/2026/08/riscv-now-officially-supported/",
+      "published_at": "Mon, 24 Aug 2026 00:00:00 GMT",
+      "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "RSS054",
+      "prompt": "The Python documentation is now available in Russian!",
+      "expected": "programming",
+      "url": "https://blog.python.org/2026/08/the-python-documentation-is-now-available-in-russian/",
+      "published_at": "Sat, 22 Aug 2026 00:00:00 GMT",
+      "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "RSS055",
+      "prompt": "Announcing the Packaging Council Election Candidates for 2026!",
+      "expected": "programming",
+      "url": "https://blog.python.org/2026/08/2026-packaging-council-nominees/",
+      "published_at": "Thu, 13 Aug 2026 00:00:00 GMT",
+      "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "RSS056",
+      "prompt": "Python 3.12.14, 3.11.16 and 3.10.21 are now available!",
+      "expected": "programming",
+      "url": "https://blog.python.org/2026/08/python-31214-31116-31021/",
+      "published_at": "Wed, 12 Aug 2026 00:00:00 GMT",
+      "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "RSS057",
+      "prompt": "Python 3.14.7 and 3.13.15 are now available!",
+      "expected": "programming",
+      "url": "https://blog.python.org/2026/08/python-3147-31315/",
+      "published_at": "Wed, 05 Aug 2026 00:00:00 GMT",
+      "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "RSS058",
+      "prompt": "Python 3.15.0 candidate 1 is here!",
+      "expected": "programming",
+      "url": "https://blog.python.org/2026/08/python-3150-rc1/",
+      "published_at": "Tue, 04 Aug 2026 00:00:00 GMT",
+      "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "RSS059",
+      "prompt": "Get Ready: 2026 Python Packaging Council Nominations Opening Soon!",
+      "expected": "programming",
+      "url": "https://blog.python.org/2026/07/2026-packaging-council-nominations/",
+      "published_at": "Thu, 23 Jul 2026 00:00:00 GMT",
+      "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "RSS060",
+      "prompt": "Python 3.15.0 beta 4 is here!",
+      "expected": "programming",
+      "url": "https://blog.python.org/2026/07/python-3150-beta-4/",
+      "published_at": "Sat, 18 Jul 2026 00:00:00 GMT",
+      "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "RSS061",
+      "prompt": "Packaging Council Inaugural Election Dates",
+      "expected": "programming",
+      "url": "https://blog.python.org/2026/06/2026-packaging-council-election-dates/",
+      "published_at": "Sun, 28 Jun 2026 00:00:00 GMT",
+      "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "RSS062",
+      "prompt": "Mitigated API authentication bypass for python.org download metadata",
+      "expected": "cybersecurity",
+      "url": "https://blog.python.org/2026/06/mitigated-api-bypass-for-download-metadata-python-dot-org/",
+      "published_at": "Tue, 23 Jun 2026 00:00:00 GMT",
+      "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "RSS063",
+      "prompt": "Python 3.15.0 beta 3 is here!",
+      "expected": "programming",
+      "url": "https://blog.python.org/2026/06/python-3150-beta-3/",
+      "published_at": "Tue, 23 Jun 2026 00:00:00 GMT",
+      "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "RSS064",
+      "prompt": "Python 3.14.6 and 3.13.14 are now available!",
+      "expected": "programming",
+      "url": "https://blog.python.org/2026/06/python-3146-31314/",
+      "published_at": "Wed, 10 Jun 2026 00:00:00 GMT",
+      "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "RSS065",
+      "prompt": "Python 3.15.0 beta 2 is here!",
+      "expected": "programming",
+      "url": "https://blog.python.org/2026/06/python-3150-beta-2/",
+      "published_at": "Tue, 02 Jun 2026 00:00:00 GMT",
+      "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "RSS066",
+      "prompt": "Python 3.14.5 is out!",
+      "expected": "programming",
+      "url": "https://blog.python.org/2026/05/python-3145-is-out/",
+      "published_at": "Sun, 10 May 2026 00:00:00 GMT",
+      "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "RSS067",
+      "prompt": "Python 3.15.0 beta 1 is here!",
+      "expected": "programming",
+      "url": "https://blog.python.org/2026/05/python-3150-beta-1/",
+      "published_at": "Thu, 07 May 2026 00:00:00 GMT",
+      "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+    },
+    {
+      "id": "RSS068",
+      "prompt": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers",
+      "expected": "cybersecurity",
+      "url": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
+      "published_at": "Sat, 10 Oct 2026 11:07:54 -0400",
+      "feed_url": "https://www.bleepingcomputer.com/feed/"
+    },
+    {
+      "id": "RSS069",
+      "prompt": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
+      "expected": "cybersecurity",
+      "url": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
+      "published_at": "Sat, 10 Oct 2026 10:16:17 -0400",
+      "feed_url": "https://www.bleepingcomputer.com/feed/"
+    },
+    {
+      "id": "RSS070",
+      "prompt": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
+      "expected": "cybersecurity",
+      "url": "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
+      "published_at": "Sat, 10 Oct 2026 08:30:39 -0400",
+      "feed_url": "https://www.bleepingcomputer.com/feed/"
+    },
+    {
+      "id": "RSS071",
+      "prompt": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
+      "expected": "cybersecurity",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
+      "published_at": "Fri, 09 Oct 2026 16:31:37 -0400",
+      "feed_url": "https://www.bleepingcomputer.com/feed/"
+    },
+    {
+      "id": "RSS072",
+      "prompt": "Unpatched AhsayCBS flaws exploited to deploy webshells, mine crypto",
+      "expected": "cybersecurity",
+      "url": "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/",
+      "published_at": "Fri, 09 Oct 2026 13:17:23 -0400",
+      "feed_url": "https://www.bleepingcomputer.com/feed/"
+    },
+    {
+      "id": "RSS073",
+      "prompt": "FBI arrests another suspected ShinyHunters hacker after agency breach",
+      "expected": "cybersecurity",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach/",
+      "published_at": "Fri, 09 Oct 2026 13:02:29 -0400",
+      "feed_url": "https://www.bleepingcomputer.com/feed/"
+    },
+    {
+      "id": "RSS074",
+      "prompt": "Germany arrests alleged core Qilin ransomware member after extradition",
+      "expected": "cybersecurity",
+      "url": "https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition/",
+      "published_at": "Fri, 09 Oct 2026 11:38:56 -0400",
+      "feed_url": "https://www.bleepingcomputer.com/feed/"
+    },
+    {
+      "id": "RSS075",
+      "prompt": "How to keep AI agents within their permissions",
+      "expected": "cybersecurity",
+      "url": "https://www.bleepingcomputer.com/news/security/how-to-keep-ai-agents-within-their-permissions/",
+      "published_at": "Fri, 09 Oct 2026 10:01:11 -0400",
+      "feed_url": "https://www.bleepingcomputer.com/feed/"
+    },
+    {
+      "id": "RSS076",
+      "prompt": "Max severity SonicWall SMA1000 flaw now exploited in attacks",
+      "expected": "cybersecurity",
+      "url": "https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks/",
+      "published_at": "Fri, 09 Oct 2026 08:32:16 -0400",
+      "feed_url": "https://www.bleepingcomputer.com/feed/"
+    },
+    {
+      "id": "RSS077",
+      "prompt": "Man admits to running network of 15,000 money mules for cybercriminals",
+      "expected": "cybersecurity",
+      "url": "https://www.bleepingcomputer.com/news/security/ukrainian-russian-dual-citizen-admits-to-laundering-millions-for-cybercriminals/",
+      "published_at": "Fri, 09 Oct 2026 07:14:28 -0400",
+      "feed_url": "https://www.bleepingcomputer.com/feed/"
+    },
+    {
+      "id": "RSS078",
+      "prompt": "Microsoft: Outdated Windows devices will stop receiving security updates",
+      "expected": "cybersecurity",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outdated-windows-devices-will-lose-security-protection-next-year/",
+      "published_at": "Fri, 09 Oct 2026 06:12:24 -0400",
+      "feed_url": "https://www.bleepingcomputer.com/feed/"
+    },
+    {
+      "id": "RSS079",
+      "prompt": "Citrix warns admins to patch new NetScaler RCE flaw immediately",
+      "expected": "cybersecurity",
+      "url": "https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/",
+      "published_at": "Fri, 09 Oct 2026 04:27:42 -0400",
+      "feed_url": "https://www.bleepingcomputer.com/feed/"
+    },
+    {
+      "id": "RSS080",
+      "prompt": "Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland",
+      "expected": "cybersecurity",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/",
+      "published_at": "Fri, 09 Oct 2026 01:41:04 -0400",
+      "feed_url": "https://www.bleepingcomputer.com/feed/"
+    },
+    {
+      "id": "RSS081",
+      "prompt": "FBI disrupts Chinese hacking tools used to breach critical infrastructure",
+      "expected": "cybersecurity",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/",
+      "published_at": "Thu, 08 Oct 2026 17:42:51 -0400",
+      "feed_url": "https://www.bleepingcomputer.com/feed/"
+    },
+    {
+      "id": "RSS082",
+      "prompt": "Ransomware attack disrupts Japan's IDCF Cloud used by govt clients",
+      "expected": "cybersecurity",
+      "url": "https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/",
+      "published_at": "Thu, 08 Oct 2026 16:09:45 -0400",
+      "feed_url": "https://www.bleepingcomputer.com/feed/"
+    },
+    {
+      "id": "RSS083",
+      "prompt": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
+      "expected": "cybersecurity",
+      "url": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
+      "published_at": "Sun, 11 Oct 2026 09:54:34 +0530",
+      "feed_url": "https://feeds.feedburner.com/TheHackersNews"
+    },
+    {
+      "id": "RSS084",
+      "prompt": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
+      "expected": "cybersecurity",
+      "url": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
+      "published_at": "Sat, 10 Oct 2026 16:30:00 +0530",
+      "feed_url": "https://feeds.feedburner.com/TheHackersNews"
+    },
+    {
+      "id": "RSS085",
+      "prompt": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
+      "expected": "cybersecurity",
+      "url": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
+      "published_at": "Sat, 10 Oct 2026 14:48:45 +0530",
+      "feed_url": "https://feeds.feedburner.com/TheHackersNews"
+    },
+    {
+      "id": "RSS086",
+      "prompt": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
+      "expected": "cybersecurity",
+      "url": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
+      "published_at": "Sat, 10 Oct 2026 00:44:28 +0530",
+      "feed_url": "https://feeds.feedburner.com/TheHackersNews"
+    },
+    {
+      "id": "RSS087",
+      "prompt": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
+      "expected": "cybersecurity",
+      "url": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
+      "published_at": "Fri, 09 Oct 2026 23:15:26 +0530",
+      "feed_url": "https://feeds.feedburner.com/TheHackersNews"
+    },
+    {
+      "id": "RSS088",
+      "prompt": "TP-Link Sued by Four More U.S. States Over Router Security and China Ties",
+      "expected": "cybersecurity",
+      "url": "https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html",
+      "published_at": "Fri, 09 Oct 2026 18:52:53 +0530",
+      "feed_url": "https://feeds.feedburner.com/TheHackersNews"
+    },
+    {
+      "id": "RSS089",
+      "prompt": "Researchers Publish Working Exploit for Pre-Auth AnyDesk Linux Flaw That Gives Root Access",
+      "expected": "cybersecurity",
+      "url": "https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html",
+      "published_at": "Fri, 09 Oct 2026 18:29:22 +0530",
+      "feed_url": "https://feeds.feedburner.com/TheHackersNews"
+    },
+    {
+      "id": "RSS090",
+      "prompt": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
+      "expected": "cybersecurity",
+      "url": "https://thehackernews.com/2026/10/anthropic-launches-free-ai.html",
+      "published_at": "Fri, 09 Oct 2026 18:17:28 +0530",
+      "feed_url": "https://feeds.feedburner.com/TheHackersNews"
+    },
+    {
+      "id": "RSS091",
+      "prompt": "Attackers Exploit AhsayCBS Flaws to Deploy XMRig Miners Disguised as Microsoft Edge",
+      "expected": "cybersecurity",
+      "url": "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html",
+      "published_at": "Fri, 09 Oct 2026 18:17:26 +0530",
+      "feed_url": "https://feeds.feedburner.com/TheHackersNews"
+    },
+    {
+      "id": "RSS092",
+      "prompt": "Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies",
+      "expected": "cybersecurity",
+      "url": "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html",
+      "published_at": "Fri, 09 Oct 2026 17:51:51 +0530",
+      "feed_url": "https://feeds.feedburner.com/TheHackersNews"
+    },
+    {
+      "id": "RSS093",
+      "prompt": "The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition",
+      "expected": "cybersecurity",
+      "url": "https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html",
+      "published_at": "Fri, 09 Oct 2026 17:00:00 +0530",
+      "feed_url": "https://feeds.feedburner.com/TheHackersNews"
+    },
+    {
+      "id": "RSS094",
+      "prompt": "GoBalance Flaw Lets Attackers Hijack .onion Addresses by Recovering Tor-Format Keys",
+      "expected": "cybersecurity",
+      "url": "https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html",
+      "published_at": "Fri, 09 Oct 2026 14:33:24 +0530",
+      "feed_url": "https://feeds.feedburner.com/TheHackersNews"
+    },
+    {
+      "id": "RSS095",
+      "prompt": "Three Teams Demonstrate Remote Hacks of Fully Patched Google Pixel 10 at Pwn2Own",
+      "expected": "cybersecurity",
+      "url": "https://thehackernews.com/2026/10/three-teams-demonstrate-remote-hacks-of.html",
+      "published_at": "Fri, 09 Oct 2026 13:56:17 +0530",
+      "feed_url": "https://feeds.feedburner.com/TheHackersNews"
+    },
+    {
+      "id": "RSS096",
+      "prompt": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
+      "expected": "cybersecurity",
+      "url": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html",
+      "published_at": "Fri, 09 Oct 2026 13:41:33 +0530",
+      "feed_url": "https://feeds.feedburner.com/TheHackersNews"
+    },
+    {
+      "id": "RSS097",
+      "prompt": "FBI Seizes 7 Domains, Disrupts Flax Typhoon Tools Used in Critical Infrastructure Intrusions",
+      "expected": "cybersecurity",
+      "url": "https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html",
+      "published_at": "Fri, 09 Oct 2026 12:09:29 +0530",
+      "feed_url": "https://feeds.feedburner.com/TheHackersNews"
+    },
+    {
+      "id": "RSS098",
+      "prompt": "FBI Says China-Linked Hackers Ran Portal Giving Third Parties Access to Stolen Emails",
+      "expected": "cybersecurity",
+      "url": "https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html",
+      "published_at": "Fri, 09 Oct 2026 00:02:21 +0530",
+      "feed_url": "https://feeds.feedburner.com/TheHackersNews"
+    },
+    {
+      "id": "RSS099",
+      "prompt": "ThreatsDay: Ransomware Affiliate Betrayal, WhatsApp RAT, Exposed Hacker Tools and 12 More Stories",
+      "expected": "cybersecurity",
+      "url": "https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html",
+      "published_at": "Thu, 08 Oct 2026 23:28:02 +0530",
+      "feed_url": "https://feeds.feedburner.com/TheHackersNews"
+    },
+    {
+      "id": "RSS100",
+      "prompt": "Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks",
+      "expected": "cybersecurity",
+      "url": "https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html",
+      "published_at": "Thu, 08 Oct 2026 21:15:56 +0530",
+      "feed_url": "https://feeds.feedburner.com/TheHackersNews"
+    }
+  ]
+}

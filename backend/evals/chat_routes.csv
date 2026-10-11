@@ -1,0 +1,101 @@
+id,expected,requested,prompt
+N01,normal,auto,Explain JavaScript closures
+N02,normal,auto,Explain Python decorators
+N03,normal,auto,What is a binary search tree?
+N04,normal,auto,Explain async and await
+N05,normal,auto,How does HTTP caching work?
+N06,normal,auto,Describe database normalization
+N07,normal,auto,Explain recursion with an example
+N08,normal,auto,What is dependency injection?
+N09,normal,auto,Explain the difference between a list and a tuple
+N10,normal,auto,How does garbage collection work?
+N11,normal,auto,Explain TCP versus UDP
+N12,normal,auto,What is a mutex?
+N13,normal,auto,Explain pure functions
+N14,normal,auto,What is a hash table?
+N15,normal,auto,Explain eventual consistency
+N16,normal,auto,Give a simple regex example
+N17,normal,auto,Explain public key cryptography
+N18,normal,auto,What is an SQL join?
+N19,normal,auto,Explain composition over inheritance
+N20,normal,auto,How do unit tests differ from integration tests?
+N21,normal,auto,Hello!
+N22,normal,auto,Thank you
+N23,normal,auto,Rewrite this sentence clearly: callbacks capture surrounding variables
+N24,normal,auto,Show a small Python function that reverses a string
+N25,normal,normal,What is the latest Python release?
+W01,web,auto,What's new in Python this week?
+W02,web,auto,What are the latest Python developments this week?
+W03,web,auto,Search the web for recent LangGraph updates
+W04,web,auto,Summarize https://docs.python.org/3/
+W05,web,auto,Read https://www.python.org/downloads/
+W06,web,auto,What's the current stable Node version?
+W07,web,auto,Which OpenRouter models were released today?
+W08,web,auto,Find recent Supabase security announcements
+W09,web,auto,What is today's programming news?
+W10,web,auto,Browse official LangGraph documentation
+W11,web,auto,Search for Python 3 release notes
+W12,web,auto,What are the latest CrewAI changes?
+W13,web,auto,Find current FastAPI documentation
+W14,web,auto,Which cybersecurity vulnerabilities were disclosed this week?
+W15,web,auto,Show recent AI agent framework releases
+W16,web,auto,Search for official AutoGen migration instructions
+W17,web,auto,What's new in PostgreSQL?
+W18,web,auto,Find the latest updates on this story
+W19,web,auto,Search for independent reports about this announcement
+W20,web,auto,What changed in LangGraph today?
+W21,web,auto,What is the current Serper API pricing?
+W22,web,auto,Check https://openrouter.ai/docs for model support
+W23,web,auto,Find recent Python packaging developments
+W24,web,auto,Please summarize https://docs.python.org/3/
+W25,web,web,Explain JavaScript closures
+K01,knowledge,auto,What did we discuss yesterday?
+K02,knowledge,auto,Recall my previous Python question
+K03,knowledge,auto,Summarize our conversation
+K04,knowledge,auto,What did we discuss about MAXXX?
+K05,knowledge,auto,Find my earlier notes about autonomous publishing
+K06,knowledge,auto,What was my previous framework preference?
+K07,knowledge,auto,Explain our chat about retrieval
+K08,knowledge,auto,What did we discuss about citations?
+K09,knowledge,auto,Summarize my earlier agent requirements
+K10,knowledge,auto,What was my previous database choice?
+K11,knowledge,auto,Find my earlier explanation of async functions
+K12,knowledge,auto,What did we discuss about source trust?
+K13,knowledge,auto,Recall our conversation about Post Agent scheduling
+K14,knowledge,auto,What did we discuss about version history?
+K15,knowledge,auto,Summarize my previous deep report
+K16,knowledge,auto,What did we discuss about testing?
+K17,knowledge,auto,What did we discuss yesterday about model costs?
+K18,knowledge,auto,Recall my earlier question about corrections
+K19,knowledge,auto,What did we discuss about Chat follow-ups?
+K20,knowledge,auto,Summarize our chat about private knowledge
+K21,knowledge,auto,What did we discuss about posting limits?
+K22,knowledge,auto,Find my previous research conclusions
+K23,knowledge,auto,What did we discuss about source extraction?
+K24,knowledge,auto,What did we discuss about duplicate stories?
+K25,knowledge,knowledge,Explain this post using its stored evidence
+D01,deep,auto,Deep research LangGraph vs CrewAI vs AutoGen
+D02,deep,auto,Deep research production limitations of LangGraph
+D03,deep,auto,Deep research Python concurrency tradeoffs
+D04,deep,auto,Deep research autonomous news publishing safety
+D05,deep,auto,Deep research the latest coding LLMs
+D06,deep,auto,Deep research vector databases for MAXXX
+D07,deep,auto,Deep research claim corroboration methods
+D08,deep,auto,Deep research RAG versus live web retrieval
+D09,deep,auto,Deep research current Python security vulnerabilities
+D10,deep,auto,Deep research source independence in technology news
+D11,deep,auto,Deep research agent checkpoint recovery
+D12,deep,auto,Deep research model routing reliability
+D13,deep,auto,Deep research OpenRouter structured outputs
+D14,deep,auto,Deep research webpage extraction failure patterns
+D15,deep,auto,Deep research LangGraph production scaling
+D16,deep,auto,Deep research distributed job lease fencing
+D17,deep,auto,Deep research cybersecurity news verification
+D18,deep,auto,Deep research RSS discovery versus search discovery
+D19,deep,auto,Deep research persistent agent memory
+D20,deep,auto,Comprehensive comparison of agent frameworks
+D21,deep,auto,Comprehensive research on source attribution
+D22,deep,auto,In-depth research of citation verification
+D23,deep,auto,Deep research real-world AutoGen deployment challenges
+D24,deep,auto,Deep research costs of autonomous research pipelines
+D25,deep,deep,Explain JavaScript closures

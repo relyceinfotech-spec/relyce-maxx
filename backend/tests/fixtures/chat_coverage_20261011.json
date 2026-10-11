@@ -1,0 +1,40 @@
+{
+  "origin_artifact": "live-chat-20261011T102616.json",
+  "reconstructed_original_answer": false,
+  "passages": [
+    {
+      "source_id": "S1",
+      "passage_id": "S1-P1",
+      "text": "Highlights of Python 3.15 include lazy imports, faster JIT compilation, better error messages, and smarter profiling."
+    },
+    {
+      "source_id": "S1",
+      "passage_id": "S1-P29",
+      "text": "But note that further development on the JIT is now subject to some firmly laid-out guidelines regarding the performance improvement it needs to provide before it can be considered a fully supported part of Python, and not just an experimental sideline."
+    },
+    {
+      "source_id": "S2",
+      "passage_id": "S2-P1",
+      "text": "Python 3.15 is now officially released, and I'd like to share some of my favorite new features."
+    }
+  ],
+  "document_dates": {
+    "S1": "2026-10-09",
+    "S2": "2026-10-09",
+    "S3": null
+  },
+  "retained_verification": {
+    "accepted": false,
+    "stage": "entailment",
+    "supported": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "contradiction_count": 2,
+    "answer_coverage_supported": false,
+    "coverage_failure_count": 2
+  }
+}
